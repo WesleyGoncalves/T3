@@ -17,3 +17,11 @@ Devem ser chamados sempre no nível superior do componente, nunca dentro de:
 - Loops
 - Condicionais (if, switch, etc.)
 - Funções aninhadas
+
+## Instalação com Docker
+
+```sh
+docker compose up -d
+```
+
+Acesse a aplicação em [http://localhost:3000](http://localhost:3000).

@@ -1,0 +1,11 @@
+services:
+  t3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "3000:3000"
+    restart: no
+    volumes:
+      - .:/app # for dev with live reload
+      - /app/node_modules
